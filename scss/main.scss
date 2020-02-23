@@ -1,0 +1,52 @@
+//variables
+:root {
+    --color: '';
+}
+
+@import url("fonts");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+body {
+    background: white;
+    // <body> will have a background colour of green for all widths. If the screen goes below 600px, the background colour becomes red instead.
+    // @media (max-width: 600px) {
+    //     background: black;
+
+    // }
+    //<body> will have a  background below 600px. Its background changes to  at 600px and beyond.
+    @media (min-width: 600px) {
+        background: rgb(122, 88, 88);
+
+    }
+    @media (min-width: 700px) {
+        background: rgb(121, 32, 32);
+
+    }
+    @media (min-width: 800px) {
+        background: rgb(26, 6, 99);
+
+    }
+    @media (min-width: 900px) {
+        background: rgb(11, 21, 163);
+
+    }
+    @media (min-width: 1000px) {
+        background: rgb(7, 160, 109);
+
+    }
+    @media (min-width: 1100px) {
+        background: rgb(181, 255, 9);
+
+    }
+    @media (min-width: 1200px) {
+        background: rgb(240, 7, 96);
+
+    }
+}

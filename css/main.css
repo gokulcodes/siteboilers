@@ -1,0 +1,59 @@
+@import url("fonts");
+:root {
+  --color: '';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: white;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: #7a5858;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    background: #792020;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    background: #1a0663;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    background: #0b15a3;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background: #07a06d;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    background: #b5ff09;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: #f00760;
+  }
+}
+/*# sourceMappingURL=main.css.map */
